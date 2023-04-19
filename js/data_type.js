@@ -6,4 +6,4 @@ let is_not = false; // 거짓
 let undefi; // 변수 이름만, 초기화 x
 let empty = null; // 비어 있음
 
-console.log(number);
+console.log(undefi, empty); 
