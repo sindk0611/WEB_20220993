@@ -17,7 +17,7 @@
     </head>
     
     
-   <body class="text-center">
+   <body class="text-center" onload="init();">
     <br><br><br>
 	   <p style="text-align:center"> <a href="index.html"><a href="index.html" target=“_blank”>
             <div class="mx-auto" style="width: 400px;">
@@ -37,9 +37,9 @@
         </div>
 
         <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me"> 로그인 유지
-          </label>
+     <label>
+        <input type="checkbox" value="remember-me" id="idSaveCheck"> 아이디 기억
+     </label>
         </div>
         <button class="w-100 btn btn-lg btn-primary" onclick="login()" type="button">로그인하기</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
