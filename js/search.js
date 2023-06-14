@@ -10,7 +10,7 @@ function search_message(){
     }
     else{
         if (no_str(search_str)) {
-            alert(`비속어 ${search_str}(이)가 포함되어 있습니다.`);
+            alert(`비속어가 포함되어 있습니다.`);
         } else {
             alert("검색을 수행합니다!");
          

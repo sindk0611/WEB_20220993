@@ -12,7 +12,7 @@ function onuseractivite() {
 
 function onTimeoutReached() {
     logoutUser = true;
-    alert("세션의 지속시간은 5분입니다. 만료되면 자동 로그아웃됩니다.");
+    alert("로그인 지속시간은 5분입니다. 자동 로그아웃됩니다.");
     session_del();
     window.location.href = "index.html";
 }
